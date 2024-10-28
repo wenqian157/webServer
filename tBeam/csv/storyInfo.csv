@@ -1,21 +1,19 @@
-﻿layer index,layer name ,content type index,content type,material,steps,,,,,,,,,,,,,,
-,,,,,0,1,2,3,4,5,6,7,8,9,10,,,,
-0,arrow_load,2,arrow,red,0,1,0,0,0,0,0,0,0,0,0,,,,
-1,lines_sut_strut,0,lines,green,0,0,0,0,0,1,1,1,1,1,0,,,,
-2,lines_sut_tie,0,lines,blue,0,0,0,0,0,1,1,1,1,1,0,,,,
-3,mesh_load,1,mesh,red,0,1,0,0,0,0,0,0,0,0,0,,,,
-4,mesh_reinforcement_flange_long,1,mesh,steel,0,0,0,0,0,0,0,0,0,0,1,,,,
-5,mesh_reinforcement_web_long,1,mesh,steel,0,0,0,0,0,0,1,0,0,1,1,,,,
-6,mesh_reinforcement_secondary,1,mesh,steel,0,0,0,0,0,0,0,0,0,1,1,,,,
-7,mesh_reinforcement_stirrups,1,mesh,steel,0,0,0,0,0,0,0,1,0,0,1,,,,
-8,mesh_reinforcement_transverse_lower,1,mesh,steel,0,0,0,0,0,0,0,0,1,0,1,,,,
-9,mesh_reinforcement_transverse_upper,1,mesh,steel,0,0,0,0,0,0,0,0,1,0,1,,,,
-10,mesh_slab_strip,1,mesh,yellow,0,0,1,0,0,0,0,0,0,0,0,,,,
-11,mesh_supports_multiple,1,mesh,concrete,1,1,1,0,0,0,0,0,0,0,0,,,,
-12,mesh_supports_single,1,mesh,concrete,0,0,0,1,1,0,0,0,0,0,0,,,,
-13,mesh_tbeam_effective,1,mesh,concrete,0,0,0,0,1,0,0,0,0,0,0,,,,
-14,mesh_tbeam_multiple,1,mesh,concrete,1,1,1,0,0,0,0,0,0,0,0,,,,
-15,mesh_tbeam_single,1,mesh,concrete,0,0,0,1,0,0,0,0,0,0,0,,,,
-16,mesh_transverse_bending,1,mesh,orange,0,0,1,0,0,0,0,0,0,0,0,,,,
-,,,,,System,Last,Moment in Querrichtung,Einzelner Plattenbalken,Mittragende Plattenbreite,Fachwerkmodell,Längsbewehrung Steg,Bügelbewehrung ,Querbewehrung Platte,Konstruktive Bewehrung,Bewehrung gesamt,,,,
-display text?,,,,,1,1,1,1,1,1,1,1,1,1,1,,,,
+0,1,2,3,4,5,6,7,8,9,10
+1,0,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,0,0,0,0,0,1
+1,1,1,1,1,0,0,0,0,0,1
+1,0,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,0
+1,1,1,1,1,1,0,1,1,0,0
+1,1,1,1,1,1,1,1,1,0,0
+1,1,1,1,1,1,1,0,1,1,0
+1,1,1,1,1,1,1,1,0,1,0
+1,1,1,1,1,1,1,1,0,1,0
+1,1,0,1,1,1,1,1,1,1,1
+0,0,0,1,1,1,1,1,1,1,1
+1,1,1,0,0,1,1,1,1,1,1
+1,1,1,1,0,1,1,1,1,1,1
+0,0,0,1,1,1,1,1,1,1,1
+1,1,1,0,1,1,1,1,1,1,1
+1,1,0,1,1,1,1,1,1,1,1
+System,Last,Moment in Querrichtung,Einzelner Plattenbalken,Mittragende Plattenbreite,Fachwerkmodell,Längsbewehrung Steg,Bügelbewehrung ,Querbewehrung Platte,Konstruktive Bewehrung,Bewehrung gesamt
