@@ -16,3 +16,5 @@ index,name,type,material,display_name_german
 14,mesh_tbeam_multiple,mesh,concrete,Mehrere Plattenbalken
 15,mesh_tbeam_single,mesh,concrete,Enzelner Plattenbalken
 16,mesh_transverse_bending,mesh,orange,Querbiegung in Platte
+17,mesh_tbeam_effective_transparent,mesh,transparent,Plattenbalken (transparent)
+18,mesh_tbeam_multiple_transparent,mesh,transparent,Mehrere Plattenbalken (transparent)
