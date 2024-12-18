@@ -15,39 +15,44 @@ Die Platte spannt in Querrichtung als Durchlaufträger zwischen den Balken.
 ====
 03
 
-In Längsrichtung wird ein einzelner Balken als Ausschnitt aus der Decke betrachtet.
+Für dieses Quermoment muss eine Biegebewehrung der Platte angeordnet werden. 
 
 ====
 04
 
-Für diesen muss zunächst die mittragende Plattenbreite bestimmt werden. 
+In Längsrichtung wird ein einzelner Balken als Ausschnitt aus der Decke betrachtet.
 
 ====
 05
 
-Hier dargestellt ist das zugehörige Fachwerkmodell für Steg und Flansch.
+Für diesen muss zunächst die mittragende Plattenbreite bestimmt werden. 
 
 ====
 06
 
-Als Längsbewehrung werden 7Ø30 gewählt. 
+Hier dargestellt ist das zugehörige Fachwerkmodell für Steg und Flansch.
 
 ====
 07
 
-Zur Sicherstellung der Querkrafttragsicherheit wird eine Bügelbewehrung Ø8@125 gewählt. 
+Als Längsbewehrung werden 7Ø30 gewählt. 
 
 ====
 08
 
-Die notwendige Querbewehrung der Platte ergibt sich als Überlagerung aus der Beanspruchung durch Querbiegemoment und Ausbreitung der Flanschdruckkräfte.
+Zur Sicherstellung der Querkrafttragsicherheit wird eine Bügelbewehrung Ø8@125 gewählt. 
 
 ====
 09
 
-Zusätzliche konstruktive Mindestbewehrung wird in Längsrichtung angeordnet. 
+Die notwendige Querbewehrung der Platte ergibt sich als Überlagerung aus der Beanspruchung durch Querbiegemoment und Ausbreitung der Flanschdruckkräfte.
 
 ====
 10
+
+Zusätzliche konstruktive Mindestbewehrung wird in Längsrichtung angeordnet. 
+
+====
+11
 
 Es ergibt sich der dargestellte Bewehrungskorb.
