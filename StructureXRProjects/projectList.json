@@ -1,12 +1,10 @@
-{
-    "Project":[
-        {
-            "name": "tBeam",
-            "url":"https://raw.githubusercontent.com/wenqian157/webServer/main/tBeam"
-        },
-        {
-            "name": "Torsion",
-            "url":"https://raw.githubusercontent.com/wenqian157/webServer/main/torsion"
-        }
-    ]
-}
+[
+    {
+        "name": "tBeam",
+        "url":"https://raw.githubusercontent.com/wenqian157/webServer/main/tBeam"
+    },
+    {
+        "name": "Torsion",
+        "url":"https://raw.githubusercontent.com/wenqian157/webServer/main/torsion"
+    }
+]
