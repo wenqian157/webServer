@@ -1,0 +1,3 @@
+index,name,type,material,display_name_german
+0,mesh_long,mesh,concrete,Längsbewehrung
+1,mesh_stirrups,mesh,concrete,Bügelbewehrung

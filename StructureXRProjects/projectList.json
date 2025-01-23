@@ -10,5 +10,9 @@
     {
         "name": "aNewProject",
         "url":"https://raw.githubusercontent.com/wenqian157/webServer/main/torsion"
+    },
+    {
+        "name": "testProject",
+        "url":"https://raw.githubusercontent.com/wenqian157/webServer/main/testProject"
     }
 ]
