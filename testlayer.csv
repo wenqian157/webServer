@@ -1,0 +1,24 @@
+Layer object,File name,Display name,Mesh,Material,Line,Color,Text,Color
+0,sut_beam_strut,Druckstreben Hohlkasten,0,,1,Green,0,
+1,sut_beam_tie,Zugstreben Hohlkasten,0,,1,Blue,0,
+2,sut_wall_strut,Druckstreben Wand,0,,1,Green,0,
+3,sut_wall_tie,Zugstreben Wand,0,,1,Blue,0,
+4,force_internal_beam,Einwirkungen Hohlkasten,0,,1,Red,0,
+5,force_internal_wall,Auflagerkräfte Wand,0,,1,Red,1,Red
+6,force_external,Äussere Last,0,,1,Red,1,Red
+7,concrete_wall,Beton Wand,1,Concrete,0,,0,
+8,concrete_beam,Beton Hohlkasten,1,Concrete,0,,0,
+9,reinforcement_wall_A,Bewehrung Strebe A,1,Steel,0,,1,Red
+10,reinforcement_wall_B,Bewehrung Strebe B,1,Steel,0,,1,Red
+11,reinforcement_wall_C,Bewehrung Strebe C,1,Steel,0,,1,Red
+12,reinforcement_wall_D,Bewehrung Strebe D,1,Steel,0,,1,Red
+13,reinforcement_wall_E,Bewehrung Strebe E,1,Steel,0,,1,Red
+14,reinforcement_wall_F,Bewehrung Strebe F,1,Steel,0,,1,Red
+15,reinforcement_wall_H,Bewehrung Strebe H,1,Steel,0,,1,Red
+16,reinforcement_beam_long,Längsbewehrung Hohlkasten,1,Steel,0,,0,
+17,reinforcement_beam_stirrups,Bügelbewehrung Hohlkasten,1,Steel,0,,0,
+18,reinforcement_beam_stringer_top,Bewehrung Stringer oben,1,Steel,0,,0,
+19,reinforcement_beam_stringer_bot,Bewehrung Stringer unten,1,Steel,0,,0,
+20,reinforcement_wall_secondary,Konstruktive Bewehrung ,1,Steel,0,,0,
+21,reinforcement_section,Wandabschnitt,1,Transparent,0,,0,
+22,support,Umgebung ,1,Concrete,0,,0,
