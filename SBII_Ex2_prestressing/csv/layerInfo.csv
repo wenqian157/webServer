@@ -12,13 +12,13 @@ index,name ,type,material,german
 10,cross_section,mesh,concrete,Querschnitt 
 11,cross_section_b_eff,mesh,concrete,Querschnitt mit effektiver Breite
 12,diagram_axes,lines,black,Achsen Diagramm
-12,diagram_complete,lines,black,Diagramm komplett
-13,diagram_Keileinzug,lines,black,Diagramm Keileinzug
-14,dimensions_delta_P,lines,black,Bemaßung Spannkraftverluste
-15,force_method,lines,black,Kraftmethode
-16,long_sectiion,mesh,concrete,Längsschnitt
-17,M0,lines,black,Moment Nullsystem
-18,neutral_axis,lines,black,Schwerpunkt
-19,slab,mesh,concrete,Querträger
-20,supports,mesh,concrete,Auflager
-21,X1,arrow,red,X1
+13,diagram_complete,lines,black,Diagramm komplett
+14,diagram_Keileinzug,lines,black,Diagramm Keileinzug
+15,dimensions_delta_P,lines,black,Bemaßung Spannkraftverluste
+16,force_method,lines,black,Kraftmethode
+17,long_sectiion,mesh,concrete,Längsschnitt
+18,M0,lines,black,Moment Nullsystem
+19,neutral_axis,lines,black,Schwerpunkt
+20,slab,mesh,concrete,Querträger
+21,supports,mesh,concrete,Auflager
+22,X1,arrow,red,X1
