@@ -60,9 +60,9 @@ Es ergibt sich der dargestellte Bewehrungskorb.
 ====
 12
 
-...
+xxx
 
 ====
 13
 
-...
+xxx
