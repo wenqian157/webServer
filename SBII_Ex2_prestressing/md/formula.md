@@ -56,3 +56,13 @@ Zusätzliche konstruktive Mindestbewehrung wird in Längsrichtung angeordnet.
 11
 
 Es ergibt sich der dargestellte Bewehrungskorb.
+
+====
+12
+
+...
+
+====
+13
+
+...
