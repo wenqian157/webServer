@@ -1,68 +1,191 @@
+==== 00
 
-00
-Das dargestellte System besteht aus mehreren Plattenbalken nebeneinander. Diese überspannen als einfache Balken 16 m. 
+Das Dach einer Bushaltestelle mit einer Grundrissfläche von 20 x 35 m ist als Platte mit
+obenliegenden in y-Richtung verlaufenden Querträgern und einem obenliegenden in xRichtung verlaufenden vorgespannten Hauptträger ausgebildet. Hauptträger und Stützen bilden zusammen einen über 20 m gespannten Zweigelenkrahmen mit beidseitigen Randüberständen von 7.5 m. 
 
-====
-01
+==== 01
 
-Zusätzlich zum Eigengewicht wirken eine Auflast $$g_{a,k} = 1 \text{kN}/\text{m}^2$$ und eine Nutzlast von $$q_{k} = 3 \text{kN}/\text{m}^2$$
+Querschnitt des Trägers. 
+          
+| Baustoffe   | Klasse  | Eigenschaften                                              |
+|:------------|:--------|:-----------------------------------------------------------|
+| Beton       | C30/37  | $f_{cd} = 20\,\text{MPa}$  <br> $E_c = 33.6\,\text{GPa}$   |
+| Spannstahl  | Y1860   | $A_p = 19.150\,\text{mm}^2$ <br> $f_{pk} = 1860\,\text{MPa}$ <br> $E_p = 195\,\text{GPa}$ <br> $c_{nom,p} = 50\,\text{mm}$ |
 
-====
-02
 
-Die Platte spannt in Querrichtung als Durchlaufträger zwischen den Balken. 
 
-====
-03
+==== 02
 
-Für dieses Quermoment muss eine Biegebewehrung der Platte angeordnet werden. 
+Der Hauptträger soll mit zwei Spanngliedeinheiten VSL 6-19 mit je 19 Litzen à 0.6“ der Festigkeitsklasse Y1860 auf eine initiale Vorspannung von 0.75∙fpk vorgespannt werden. Zur Ausgleichung der Reibungsverluste wird ein Kabel von links (x = -17.5 m) und ein Kabel von rechts (x = 17.5 m) gespannt.
 
-====
-04
+==== 03
 
-In Längsrichtung wird ein einzelner Balken als Ausschnitt aus der Decke betrachtet.
+Erwarteter Momentenverlauf des Trägers. Dieser wird benötigt für die Berechnung der effektiven Breite. 
 
-====
-05
+==== 04
 
-Für diesen muss zunächst die mittragende Plattenbreite bestimmt werden. 
+Berechnung der effektiven Breite. 
 
-====
-06
+<div align="left">
 
-Hier dargestellt ist das zugehörige Fachwerkmodell für Steg und Flansch.
+$$
+\begin{aligned}
+&l_0 = 0.7 \cdot L = 14\,\text{m} \\
+&b_{\text{eff},i} = 0.2 \cdot b_f + 0.1 \cdot l_0 = 3.3\,\text{m} \leq 0.2 \cdot l_0 \Rightarrow b_{\text{eff},i} = 0.2 \cdot l_0 = 2.8\,\text{m} \\
+&b_{\text{eff}} = 2 \cdot b_{\text{eff},i} + b_w = 6.6\,\text{m}
+\end{aligned}
+$$
 
-====
-07
+</div>
 
-Als Längsbewehrung werden 7Ø30 gewählt. 
+==== 05
 
-====
-08
+Mit der effektiven Breite des Trägers, kann man die effektiven Querschnittswerte berechnen. In diesem Beispiel wird nur die effektive Breite des Innenfelds berücksichtigt, da die Steifigkeit der Randüberstände nicht benötigt wird für die Berechnung der Zwangsschnittgrößen. 
 
-Zur Sicherstellung der Querkrafttragsicherheit wird eine Bügelbewehrung Ø8@125 gewählt. 
+<div align="left">
 
-====
-09
+$$
+\begin{aligned}
+&A_b = h \cdot b_w + 2 \cdot t \cdot b_eff,i = 2.544 \text{m}^2 \\
+&\zeta _1 = \frac{h}{2} = 600 \text{mm}, \zeta _2 = \frac{t}{2} + \frac{6}{95} \cdot \frac{b_eff,i}{2} = 208.4 \text{mm}\\
+&\zeta_c = \frac{h \cdot b_w \cdot s_1 + 2 \cdot t \cdot b_{\text{eff},i} \cdot s_2}{A_b} = 393.1\,\text{mm}\\
+&I_b = \frac{h^3 b_w}{12} + 2 \cdot \frac{b_{\text{eff},i} \cdot t^3}{12} + b_w \cdot h \cdot (\zeta _1 - \zeta_c)^2 + 2 \cdot b_{\text{eff},i} \cdot t \cdot (\zeta_c - \zeta _2)^2 = 0.2477\,\text{m}^4
 
-Die notwendige Querbewehrung der Platte ergibt sich als Überlagerung aus der Beanspruchung durch Querbiegemoment und Ausbreitung der Flanschdruckkräfte.
+\end{aligned}
+$$
 
-====
-10
+</div>
 
-Zusätzliche konstruktive Mindestbewehrung wird in Längsrichtung angeordnet. 
+==== 06
 
-====
-11
+Die Kabelgeometrie orientiert sich ungefähr am Momentenverlauf des Trägers. Der genaue Verlauf kann anhand der Herstellerangaben berechnet werden. 
 
-Es ergibt sich der dargestellte Bewehrungskorb.
+- Spanngliedeinheit VSL 6-19 Y1860, $A_p = 19.150\,\text{mm}^2 = 2850\,\text{mm}^2$
+- Rundes Stahlhüllrohr 90/97 (Øᵢ = 90 mm, Øₐ = 97 mm, Δs = 12 mm)
 
-====
-12
+- Min. Radius: $R_{\text{min}} = k \cdot \sqrt{P_{pk}\,[\text{MN}]} = 3 \cdot \sqrt{A_p f_{pk}\,[\text{MN}]} = 6.9\,\text{m}$
 
-xxx
+- Minimaler Randabstand der Verankerung EC 30:
 
-====
-13
+  $$
+  R_4 = \frac{X}{2} + c_{\text{nom},p} - 10 = 270\,\text{mm}
+  $$
 
-xxx
+  $$
+  X = 460\,\text{mm}
+  $$
+
+- Minimaler Randabstand auf freier Länge:
+
+    $$
+  R_F = c_{\text{nom},p} + \frac{97\,\text{mm}}{2} + 12\,\text{mm} = 111\,\text{mm}
+  $$
+
+
+==== 07
+
+Berechnung der Kabelgeometrie mit den Herstellerangaben und der Geometrie des Trgers. 
+
+| **Randfeld** |                 | **Innenfeld** |
+|--------------|----------------|---------------|
+| $k = 0$  <br> $f_0 = h - \zeta_c - R_F = 696\,\text{mm}$ <br> $l = a = 7500\,\text{mm}$ <br> $b = \frac{2 R_{\text{min}} \cdot f_0}{a} = 1281\,\text{mm}$ <br> $c = \frac{2 R_{\text{min}} \cdot f_0^2}{a^2} = 119\,\text{mm}$ <br> $f = \frac{f_0 \cdot l^2}{4 \left(a^2 - 2 R_{\text{min}} \cdot f_0 \right)} = 210\,\text{mm}$ |                 | $F_0 = h - 2 R_F = 978\,\text{mm}$ <br> $L = 20000\,\text{mm}$ <br> $B = \frac{4 R_{\text{min}} \cdot F_0}{L} = 1350\,\text{mm}$ <br> $C = \frac{8 R_{\text{min}} \cdot F_0^2}{L^2} = 132\,\text{mm}$ <br> $F = \frac{F_0 \cdot L^2}{L^2 - 8 R_{\text{min}} \cdot F_0} = 1131\,\text{mm}$ |
+
+Die Umlenkkräfte im Randfeld $u = \frac{8 \cdot P\cdot f}{l^2} = \frac{P}{33.5 \text{m}}$ sind etwas grösser als diejenigen im Mittelfeld $u = \frac{8 \cdot P\cdot f}{l^2} = \frac{P}{44.2 \text{m}}$.
+
+==== 08
+Die Spannkraft reduziert sich über den Verlauf des Kabels. Dies liegt an Verlsuten durch Reibung und den Keileinzug. \
+Verluste infolge Reibung: $\mu = 0.18,\Delta \phi = 5 \text{mrad/m}$
+
+
+<div align="left">
+
+$$
+\begin{aligned}
+&\delta \varphi_x = \frac{2 \left| e_j - e_{j-1} \right|}{x_j - x_{j-1}}\\
+&\varphi_x = \sum \delta \varphi_x\\
+&P(x) = P_{\text{max}} \cdot e^{-\mu (\varphi_x + \Delta \varphi \cdot x)}\\
+&P_{\text{max}} = 0.75 \, A_p f_{pk} = 3976\,\text{kN}\\
+\end{aligned}
+$$
+</div>
+
+| **Position**     | $x_j$ [mm] | $e_j$ [mm] | $\delta \varphi_x$ [mrad] | $\varphi_x$ [mrad] | $\mu(\varphi_x + \Delta \varphi \cdot x)$ [-] | $e^{-\mu(\varphi_x + \Delta \varphi \cdot x)}$ [-] | $P(x)$ [kN] |
+|:----------------:|:----------:|:----------:|:--------------------------:|:------------------:|:---------------------------------------------:|:--------------------------------------------------:|:-----------:|
+| Trägeranfang     | 0.00       | 0          | 0                          | 0                  | 0.000                                         | 1.000                                              | 3976        |
+| Wendepunkt       | 6219       | -577       | 186                        | 186                | 0.039                                         | 0.962                                              | 3824        |
+| Stütze           | 7500       | -696       | 186                        | 371                | 0.074                                         | 0.929                                              | 3694        |
+| Wendepunkt       | 8850       | -564       | 196                        | 567                | 0.116                                         | 0.896                                              | 3562        |
+| Tiefpunkt        | 17'500     | 282        | 196                        | 763                | 0.155                                         | 0.858                                              | 3412        |
+| Wendepunkt       | 26'150     | -564       | 196                        | 958                | 0.196                                         | 0.822                                              | 3268        |
+| Stütze           | 27'500     | -696       | 196                        | 1154               | 0.232                                         | 0.793                                              | 3151        |
+| Wendepunkt       | 28'781     | -577       | 186                        | 1339               | 0.267                                         | 0.766                                              | 3044        |
+| Trägerende       | 35'000     | 0          | 186                        | 1525               | 0.306                                         | 0.736                                              | 2928        |
+
+
+
+
+Am passiven Ende verbleiben nach Abzug der Reibungsverluste knapp 74% der maximalen Spannkraft am
+aktiven Ende.
+
+==== 09
+
+Verluste infolge Keileinzug: $\Delta = 6 \text{mm}$ \
+Der Keileinzug beeinflusst das aktive Ende bis über den ersten Wendepunkt des Spannglieds.\
+
+<div align="left">
+
+$$
+\begin{aligned}
+&\Delta P = 2 \left( l_1 \frac{dP_1}{dx} + l_2 \frac{dP_2}{dx} \right) \\
+&\Delta P_2 = 2 \cdot l_2 \cdot \frac{dP_2}{dx} \\
+&\Delta = \frac{l_1 \left( \Delta P + \Delta P_2 \right)}{2 E_p A_p} + \frac{l_2 \cdot \Delta P_2}{2 E_p A_p} \overset{!}{=} 6\,\text{mm}
+\end{aligned}
+$$
+
+</div>
+
+Aus den drei Gleichungen mit den Unbekannten $l_2$, $\Delta P$ und $\Delta P_2$ folgt:
+
+<div align="left">
+
+$$
+\begin{aligned}
+&l_2 = 1.70 \text{m} \\
+&\Delta P = 643 \text{kN} \\
+&\Delta P_2 = 339 \text{kN}
+\end{aligned}
+$$
+</div>
+
+$ \frac{\Delta P_2}{dx} $ entspricht der gemittelten Änderung der Vorspannkraft zwischen dem ersten ud zweiten Wendepunkt. 
+
+==== 10
+
+Verlauf der Vorspannkraft für Kabel A. \
+Der Verlauf des Kabel B ist gespiegelt bezüglich x = 17.5m. Aus der Superposition der beiden
+Spannkrafverläufe resultiert die tatsächliche Vorspannkraft in jedem Querschnitt. 
+
+Bei der Verankerung:  
+$P = 3333\,\text{kN} + 2928\,\text{kN} = 6261\,\text{kN}$
+
+In Feldmitte:  
+$P = 2 \cdot 3412\,\text{kN} = 6824\,\text{kN}$
+
+Über den Stützen:  
+$P = 3612\,\text{kN} + 3151\,\text{kN} = 6765\,\text{kN}$
+
+---
+
+Die Spannkräfte wurden hier zwischen den Wendepunkten gemittelt. Vergleicht man die Spannkraft über der Stütze bei $x = 27{,}5\,\text{m}$ mit dem exakten Wert aus der Tabelle auf S. 4, wird ersichtlich, dass der Unterschied marginal ist.
+
+==== 11
+
+Ankerkräfte des Spannglieds. 
+
+==== 12 
+
+Ankerbereiche benötigen Spreizbewehrung. 
+
+==== 13
+
+Übersicht
