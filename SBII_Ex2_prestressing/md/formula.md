@@ -1,9 +1,11 @@
-==== 00
+
+00
 
 Das Dach einer Bushaltestelle mit einer Grundrissfläche von 20 x 35 m ist als Platte mit
 obenliegenden in y-Richtung verlaufenden Querträgern und einem obenliegenden in xRichtung verlaufenden vorgespannten Hauptträger ausgebildet. Hauptträger und Stützen bilden zusammen einen über 20 m gespannten Zweigelenkrahmen mit beidseitigen Randüberständen von 7.5 m. 
 
-==== 01
+====
+01
 
 Querschnitt des Trägers. 
           
@@ -14,15 +16,18 @@ Querschnitt des Trägers.
 
 
 
-==== 02
+====
+02
 
 Der Hauptträger soll mit zwei Spanngliedeinheiten VSL 6-19 mit je 19 Litzen à 0.6“ der Festigkeitsklasse Y1860 auf eine initiale Vorspannung von 0.75∙fpk vorgespannt werden. Zur Ausgleichung der Reibungsverluste wird ein Kabel von links (x = -17.5 m) und ein Kabel von rechts (x = 17.5 m) gespannt.
 
-==== 03
+====
+03
 
 Erwarteter Momentenverlauf des Trägers. Dieser wird benötigt für die Berechnung der effektiven Breite. 
 
-==== 04
+====
+04
 
 Berechnung der effektiven Breite. 
 
@@ -38,7 +43,8 @@ $$
 
 </div>
 
-==== 05
+====
+05
 
 Mit der effektiven Breite des Trägers, kann man die effektiven Querschnittswerte berechnen. In diesem Beispiel wird nur die effektive Breite des Innenfelds berücksichtigt, da die Steifigkeit der Randüberstände nicht benötigt wird für die Berechnung der Zwangsschnittgrößen. 
 
@@ -56,7 +62,8 @@ $$
 
 </div>
 
-==== 06
+====
+06
 
 Die Kabelgeometrie orientiert sich ungefähr am Momentenverlauf des Trägers. Der genaue Verlauf kann anhand der Herstellerangaben berechnet werden. 
 
@@ -82,7 +89,8 @@ Die Kabelgeometrie orientiert sich ungefähr am Momentenverlauf des Trägers. De
   $$
 
 
-==== 07
+====
+07
 
 Berechnung der Kabelgeometrie mit den Herstellerangaben und der Geometrie des Trgers. 
 
@@ -92,7 +100,8 @@ Berechnung der Kabelgeometrie mit den Herstellerangaben und der Geometrie des Tr
 
 Die Umlenkkräfte im Randfeld $u = \frac{8 \cdot P\cdot f}{l^2} = \frac{P}{33.5 \text{m}}$ sind etwas grösser als diejenigen im Mittelfeld $u = \frac{8 \cdot P\cdot f}{l^2} = \frac{P}{44.2 \text{m}}$.
 
-==== 08
+====
+08
 Die Spannkraft reduziert sich über den Verlauf des Kabels. Dies liegt an Verlsuten durch Reibung und den Keileinzug. \
 Verluste infolge Reibung: $\mu = 0.18,\Delta \phi = 5 \text{mrad/m}$
 
@@ -127,7 +136,8 @@ $$
 Am passiven Ende verbleiben nach Abzug der Reibungsverluste knapp 74% der maximalen Spannkraft am
 aktiven Ende.
 
-==== 09
+====
+09
 
 Verluste infolge Keileinzug: $\Delta = 6 \text{mm}$ \
 Der Keileinzug beeinflusst das aktive Ende bis über den ersten Wendepunkt des Spannglieds.\
@@ -159,7 +169,8 @@ $$
 
 $ \frac{\Delta P_2}{dx} $ entspricht der gemittelten Änderung der Vorspannkraft zwischen dem ersten ud zweiten Wendepunkt. 
 
-==== 10
+====
+10
 
 Verlauf der Vorspannkraft für Kabel A. \
 Der Verlauf des Kabel B ist gespiegelt bezüglich x = 17.5m. Aus der Superposition der beiden
@@ -178,14 +189,17 @@ $P = 3612\,\text{kN} + 3151\,\text{kN} = 6765\,\text{kN}$
 
 Die Spannkräfte wurden hier zwischen den Wendepunkten gemittelt. Vergleicht man die Spannkraft über der Stütze bei $x = 27{,}5\,\text{m}$ mit dem exakten Wert aus der Tabelle auf S. 4, wird ersichtlich, dass der Unterschied marginal ist.
 
-==== 11
+====
+11
 
 Ankerkräfte des Spannglieds. 
 
-==== 12 
+====
+12 
 
 Ankerbereiche benötigen Spreizbewehrung. 
 
-==== 13
+====
+13
 
 Übersicht
