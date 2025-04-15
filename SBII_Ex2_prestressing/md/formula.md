@@ -1,4 +1,3 @@
-====
 00
 
 Das Dach einer Bushaltestelle mit einer Grundrissfläche von 20 x 35 m ist als Platte mit
