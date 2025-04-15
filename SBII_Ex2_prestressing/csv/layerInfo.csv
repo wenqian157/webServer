@@ -1,24 +1,24 @@
 index,name ,type,material,german
-0,b_eff,mesh,concrete,b_eff
-1,beam,mesh,concrete,Balken
-2,bending_moment,lines,orange,Biegemoment qualitativ
-3,cable,lines,blue,Spannglied
-4,cable_geometry,lines,white,Spannglied Bemaßung
-5,columns,mesh,concrete,Stützen
-6,cross_section,mesh,concrete,Querschnitt 
-7,cross_section_b_eff,mesh,concrete,Querschnitt mit effektiver Breite
-8,diagram_axes,arrow,white,Achsen Diagramm
-9,diagram_complete,lines,white,Diagramm komplett
-10,diagram_Keileinzug,lines,white,Diagramm Keileinzug
-11,dimensions_delta_P,lines,white,Bemaßung Spannkraftverluste
-12,long_sectiion,mesh,concrete,Längsschnitt
-13,neutral_axis,lines,white,Schwerpunkt
-14,slab,mesh,concrete,Platte
-15,supports,mesh,concrete,Auflager
-16,X1,arrow,red,X1
-17,coord_sys,arrow,white,Koordinatensystem
-18,hor_beams,mesh,concrete,Querträger
-19,slab_trans,mesh,transparent,Platte Transparent
-20,beam_trans,mesh,transparent,Träger transparent
-21,hor_beams_trans,mesh,transparent,Querträger transparent
-22,2_cable,lines,blue,Spannkabel Ende
+0,mesh_b_eff,mesh,concrete,b_eff
+1,mesh_beam,mesh,concrete,Balken
+2,lines_bending_moment,lines,orange,Biegemoment qualitativ
+3,lines_cable,lines,blue,Spannglied
+4,lines_cable_geometry,lines,white,Spannglied Bemaßung
+5,mesh_columns,mesh,concrete,Stützen
+6,mesh_cross_section,mesh,concrete,Querschnitt 
+7,mesh_cross_section_b_eff,mesh,concrete,Querschnitt mit effektiver Breite
+8,arrow_diagram_axes,arrow,white,Achsen Diagramm
+9,lines_diagram_complete,lines,white,Diagramm komplett
+10,lines_diagram_Keileinzug,lines,white,Diagramm Keileinzug
+11,lines_dimensions_delta_P,lines,white,Bemaßung Spannkraftverluste
+12,mesh_long_sectiion,mesh,concrete,Längsschnitt
+13,lines_neutral_axis,lines,white,Schwerpunkt
+14,mesh_slab,mesh,concrete,Platte
+15,mesh_supports,mesh,concrete,Auflager
+16,arrow_X1,arrow,red,X1
+17,arrow_coord_sys,arrow,white,Koordinatensystem
+18,mesh_hor_beams,mesh,concrete,Querträger
+19,mesh_slab_trans,mesh,transparent,Platte Transparent
+20,mesh_beam_trans,mesh,transparent,Träger transparent
+21,mesh_hor_beams_trans,mesh,transparent,Querträger transparent
+22,lines_2_cable,lines,blue,Spannkabel Ende
