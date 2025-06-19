@@ -1,4 +1,4 @@
-Index,layer name ,layer name german,content type,material,Gesamtsystem,Querschnitt,Rahmensystem,Momentenverlauf,Effektive Breite,Querschnittswerte,Kabelgeometrie,Kabelgeometrie,Spannkraftverluste,Keileinzug,Kraftverlauf,Gesamtsystem mit Kabeln
+Index,layer name ,layer name german,content type,material,Gesamtsystem,Querschnitt,Rahmensystem,Momentenverlauf,EffektiveBreite,Querschnittswerte,Kabelgeometrie,Kabelgeometrie,Spannkraftverluste,Keileinzug,Kraftverlauf,Gesamtsystem mit Kabeln
 0,1D_structure,Stabmodell,lines,white,0,0,0,0,0,0,0,0,0,0,0,0
 1,anchorage,Ankerkräte,arrow,red,0,0,0,0,0,0,0,0,0,0,0,0
 2,anchorage_strut_tie,Fachwerkmodell Ankerkraft,lines,green,0,0,0,0,0,0,0,0,0,0,0,0
