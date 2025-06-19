@@ -1,0 +1,30 @@
+Index,layer name ,layer name german,content type,material,Gesamtsystem,Querschnitt,Rahmensystem,Momentenverlauf,Effektive Breite,Querschnittswerte,Kabelgeometrie,Kabelgeometrie,Spannkraftverluste,Keileinzug,Kraftverlauf,Gesamtsystem mit Kabeln
+0,1D_structure,Stabmodell,lines,white,0,0,0,0,0,0,0,0,0,0,0,0
+1,anchorage,Ankerkräte,arrow,red,0,0,0,0,0,0,0,0,0,0,0,0
+2,anchorage_strut_tie,Fachwerkmodell Ankerkraft,lines,green,0,0,0,0,0,0,0,0,0,0,0,0
+3,annotation_force_method,Beschriftung Kraftmethode,lines,white,0,0,0,0,0,0,0,0,0,0,0,0
+4,b_eff,b_eff,mesh,concrete,0,0,0,0,0,1,0,0,0,0,0,0
+5,beam,Balken,mesh,concrete,1,0,1,0,0,0,0,0,0,0,0,0
+6,bending_moment,Biegemoment qualitativ,lines,orange,0,0,0,1,0,0,0,0,0,0,0,0
+7,cable,Spannglied,lines,blue,0,0,0,0,0,0,1,1,1,1,1,0
+8,cable_geometry,Spannglied Bemaßung,lines,white,0,0,0,0,0,0,0,1,0,0,0,0
+9,columns,Stützen,mesh,concrete,1,0,1,1,0,1,1,1,0,0,0,1
+10,cross_section,Querschnitt ,mesh,concrete,0,1,0,0,0,0,0,0,0,0,0,0
+11,cross_section_b_eff,Querschnitt mit effektiver Breite,mesh,concrete,0,0,0,0,1,0,0,0,0,0,0,0
+12,diagram_axes,Achsen Diagramm,lines,white,0,0,0,0,0,0,0,0,0,1,1,0
+12,diagram_complete,Diagramm komplett,lines,white,0,0,0,0,0,0,0,0,0,0,1,0
+13,diagram_Keileinzug,Diagramm Keileinzug,lines,white,0,0,0,0,0,0,0,0,0,1,0,0
+14,dimensions_delta_P,Bemaßung Spannkraftverluste,lines,white,0,0,0,0,0,0,0,0,1,0,1,0
+15,force_method,Kraftmethode,lines,white,0,0,0,0,0,0,0,0,0,0,0,0
+16,long_sectiion,Längsschnitt,mesh,concrete,0,0,0,1,0,0,1,1,0,0,0,0
+17,M0,Moment Nullsystem,lines,white,0,0,0,0,0,0,0,0,0,0,0,0
+18,neutral_axis,Schwerpunkt,lines,white,0,0,0,1,0,0,1,1,1,1,1,0
+19,slab,Platte,mesh,concrete,1,0,0,0,0,0,0,0,0,0,0,0
+20,supports,Auflager,mesh,concrete,1,0,1,1,0,1,1,1,0,0,0,1
+21,X1,X1,arrow,red,0,0,0,0,0,0,0,0,0,0,0,0
+22,coord_sys,Koordinatensystem,arrow,white,1,1,1,1,1,1,1,1,1,1,1,1
+23,hor_beams,Querträger,mesh,concrete,1,0,0,0,0,0,0,0,0,0,0,0
+24,slab_trans,Platte Transparent,mesh,transparent,0,0,0,0,0,0,0,0,0,0,0,1
+25,beam_trans,Träger transparent,mesh,transparent,0,0,0,0,0,0,0,0,0,0,0,1
+26,hor_beams_trans,Querträger transparent,mesh,transparent,0,0,0,0,0,0,0,0,0,0,0,1
+27,2_cable,Spannkabel Ende,lines,blue,0,0,0,0,0,0,0,0,0,0,0,1
