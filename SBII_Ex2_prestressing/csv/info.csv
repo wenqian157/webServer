@@ -1,24 +1,24 @@
 Index,layername ,layernamegerman,contenttype,material,Gesamtsystem,Querschnitt,Rahmensystem,Momentenverlauf,EffektiveBreite,Querschnittswerte,Kabelgeometrie,Kabelgeometrie,Spannkraftverluste,Keileinzug,Kraftverlauf,Gesamtsystem mit Kabeln
-0,1D_structure,Stabmodell,lines,white,0,0,0,0,0,0,0,0,0,0,0,0
+0,1D_structure,Stabmodell,line,white,0,0,0,0,0,0,0,0,0,0,0,0
 1,anchorage,Ankerkräte,arrow,red,0,0,0,0,0,0,0,0,0,0,0,0
-2,anchorage_strut_tie,Fachwerkmodell Ankerkraft,lines,green,0,0,0,0,0,0,0,0,0,0,0,0
-3,annotation_force_method,Beschriftung Kraftmethode,lines,white,0,0,0,0,0,0,0,0,0,0,0,0
+2,anchorage_strut_tie,Fachwerkmodell Ankerkraft,line,green,0,0,0,0,0,0,0,0,0,0,0,0
+3,annotation_force_method,Beschriftung Kraftmethode,line,white,0,0,0,0,0,0,0,0,0,0,0,0
 4,b_eff,b_eff,mesh,concrete,0,0,0,0,0,1,0,0,0,0,0,0
 5,beam,Balken,mesh,concrete,1,0,1,0,0,0,0,0,0,0,0,0
-6,bending_moment,Biegemoment qualitativ,lines,orange,0,0,0,1,0,0,0,0,0,0,0,0
-7,cable,Spannglied,lines,blue,0,0,0,0,0,0,1,1,1,1,1,0
-8,cable_geometry,Spannglied Bemaßung,lines,white,0,0,0,0,0,0,0,1,0,0,0,0
+6,bending_moment,Biegemoment qualitativ,line,orange,0,0,0,1,0,0,0,0,0,0,0,0
+7,cable,Spannglied,line,blue,0,0,0,0,0,0,1,1,1,1,1,0
+8,cable_geometry,Spannglied Bemaßung,line,white,0,0,0,0,0,0,0,1,0,0,0,0
 9,columns,Stützen,mesh,concrete,1,0,1,1,0,1,1,1,0,0,0,1
 10,cross_section,Querschnitt ,mesh,concrete,0,1,0,0,0,0,0,0,0,0,0,0
 11,cross_section_b_eff,Querschnitt mit effektiver Breite,mesh,concrete,0,0,0,0,1,0,0,0,0,0,0,0
-12,diagram_axes,Achsen Diagramm,lines,white,0,0,0,0,0,0,0,0,0,1,1,0
-13,diagram_complete,Diagramm komplett,lines,white,0,0,0,0,0,0,0,0,0,0,1,0
-14,diagram_Keileinzug,Diagramm Keileinzug,lines,white,0,0,0,0,0,0,0,0,0,1,0,0
-15,dimensions_delta_P,Bemaßung Spannkraftverluste,lines,white,0,0,0,0,0,0,0,0,1,0,1,0
-16,force_method,Kraftmethode,lines,white,0,0,0,0,0,0,0,0,0,0,0,0
+12,diagram_axes,Achsen Diagramm,line,white,0,0,0,0,0,0,0,0,0,1,1,0
+13,diagram_complete,Diagramm komplett,line,white,0,0,0,0,0,0,0,0,0,0,1,0
+14,diagram_Keileinzug,Diagramm Keileinzug,line,white,0,0,0,0,0,0,0,0,0,1,0,0
+15,dimensions_delta_P,Bemaßung Spannkraftverluste,line,white,0,0,0,0,0,0,0,0,1,0,1,0
+16,force_method,Kraftmethode,line,white,0,0,0,0,0,0,0,0,0,0,0,0
 17,long_sectiion,Längsschnitt,mesh,concrete,0,0,0,1,0,0,1,1,0,0,0,0
-18,M0,Moment Nullsystem,lines,white,0,0,0,0,0,0,0,0,0,0,0,0
-19,neutral_axis,Schwerpunkt,lines,white,0,0,0,1,0,0,1,1,1,1,1,0
+18,M0,Moment Nullsystem,line,white,0,0,0,0,0,0,0,0,0,0,0,0
+19,neutral_axis,Schwerpunkt,line,white,0,0,0,1,0,0,1,1,1,1,1,0
 20,slab,Platte,mesh,concrete,1,0,0,0,0,0,0,0,0,0,0,0
 21,supports,Auflager,mesh,concrete,1,0,1,1,0,1,1,1,0,0,0,1
 22,X1,X1,arrow,red,0,0,0,0,0,0,0,0,0,0,0,0
