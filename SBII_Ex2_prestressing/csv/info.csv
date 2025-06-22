@@ -21,4 +21,4 @@ Index,layername ,layernamegerman,contenttype,material,Gesamtsystem,Querschnitt,R
 19,mesh_slab_trans,Platte Transparent,mesh,transparent,0,0,0,0,0,0,0,0,0,0,0,1
 20,mesh_beam_trans,Träger transparent,mesh,transparent,0,0,0,0,0,0,0,0,0,0,0,1
 21,mesh_hor_beams_trans,Querträger transparent,mesh,transparent,0,0,0,0,0,0,0,0,0,0,0,1
-22,lines_1_cable,Spannkabel Ende,lines,blue,0,0,0,0,0,0,0,0,0,0,0,1
+22,lines_2_cable,Spannkabel Ende,lines,blue,0,0,0,0,0,0,0,0,0,0,0,1
