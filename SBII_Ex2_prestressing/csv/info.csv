@@ -8,7 +8,7 @@ Index,layername ,layernamegerman,contenttype,material,Gesamtsystem,Querschnitt,R
 6,mesh_cross_section,Querschnitt ,mesh,concrete,0,1,0,0,0,0,0,0,0,0,0,0
 7,mesh_cross_section_b_eff,Querschnitt mit effektiver Breite,mesh,concrete,0,0,0,0,1,0,0,0,0,0,0,0
 8,arrow_diagram_axes,Achsen Diagramm,arrows,white,0,0,0,0,0,0,0,0,0,1,1,0
-9,lines_diagram_complete,Diagramm komplett,Lines,white,0,0,0,0,0,0,0,0,0,0,1,0
+9,lines_diagram_complete,Diagramm komplett,lines,white,0,0,0,0,0,0,0,0,0,0,1,0
 10,lines_diagram_Keileinzug,Diagramm Keileinzug,lines,white,0,0,0,0,0,0,0,0,0,1,0,0
 11,lines_dimensions_delta_P,Bemaßung Spannkraftverluste,lines,white,0,0,0,0,0,0,0,0,1,0,1,0
 12,mesh_long_sectiion,Längsschnitt,mesh,concrete,0,0,0,1,0,0,1,1,0,0,0,0
